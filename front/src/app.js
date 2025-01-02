@@ -3,10 +3,8 @@ const messageForm = document.getElementById("message-form");
 const userInput = document.getElementById("user-input");
 const apiSelector = document.getElementById("api-selector");
 
-// We'll read the API endpoint from an environment variable
-const BASE_URL = process.env.API_ENDPOINT;
-// This will be replaced at build time by Parcel with the appropriate value
-// from the corresponding .env file.
+// 환경 변수 사용 (Vercel에 NEXT_PUBLIC_API_ENDPOINT 설정 필요)
+const BASE_URL = process.env.NEXT_PUBLIC_API_ENDPOINT;
 
 function createMessageBubble(content, sender = "user") {
   const wrapper = document.createElement("div");
