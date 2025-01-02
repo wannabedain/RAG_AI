@@ -18,5 +18,8 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   },
-  "homepage": "https://beomi.github.io/ssafy-2024-frontend/"
+  "homepage": "https://beomi.github.io/ssafy-2024-frontend/",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
